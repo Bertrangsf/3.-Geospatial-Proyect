@@ -1,0 +1,2983 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_627e4b797962480ba8ad4389c8c599fb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_627e4b797962480ba8ad4389c8c599fb" ></div>
+        
+</body>
+<script>    
+    
+            var map_627e4b797962480ba8ad4389c8c599fb = L.map(
+                "map_627e4b797962480ba8ad4389c8c599fb",
+                {
+                    center: [25.76849, -80.28966],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d1a3e4d41c634f4689f2a362ee63bbf2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var marker_620fe5f6816f42f780be1eb6aca58244 = L.marker(
+                [25.77981262582324, -80.28872429379577],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_3a5645c771d44020a227319e456b5299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_620fe5f6816f42f780be1eb6aca58244.setIcon(icon_3a5645c771d44020a227319e456b5299);
+        
+    
+            marker_620fe5f6816f42f780be1eb6aca58244.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6acc6cca91846c3a83e78620fa69403 = L.marker(
+                [25.79669598715567, -80.32468642478669],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_75253e92244d425dbfc382256862f726 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f6acc6cca91846c3a83e78620fa69403.setIcon(icon_75253e92244d425dbfc382256862f726);
+        
+    
+            marker_f6acc6cca91846c3a83e78620fa69403.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccc74a56491c439abd6c89eb42b53933 = L.marker(
+                [25.761623, -80.3331],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_debab371c5b64b85a8436587aebe063e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ccc74a56491c439abd6c89eb42b53933.setIcon(icon_debab371c5b64b85a8436587aebe063e);
+        
+    
+            marker_ccc74a56491c439abd6c89eb42b53933.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_205e526d6c404d649b878d66304374e1 = L.marker(
+                [25.7949064420791, -80.27904224873576],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_8f792341db164699979cae5bc4d38067 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_205e526d6c404d649b878d66304374e1.setIcon(icon_8f792341db164699979cae5bc4d38067);
+        
+    
+            marker_205e526d6c404d649b878d66304374e1.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3767e35839a43cba7b8b85cbd855bb3 = L.marker(
+                [25.746635, -80.33538],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a02861e4b5f8420db18d56f1d8c87f4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d3767e35839a43cba7b8b85cbd855bb3.setIcon(icon_a02861e4b5f8420db18d56f1d8c87f4e);
+        
+    
+            marker_d3767e35839a43cba7b8b85cbd855bb3.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb26ed04f01649b18e5849c0740591be = L.marker(
+                [25.796091060170458, -80.27834415435791],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_d9c8c9924a34478c910c38271313e692 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_eb26ed04f01649b18e5849c0740591be.setIcon(icon_d9c8c9924a34478c910c38271313e692);
+        
+    
+            marker_eb26ed04f01649b18e5849c0740591be.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_795953b9332f446e9b3168fffe7e8c98 = L.marker(
+                [25.808853393050775, -80.31510350249086],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_102eb1bdf5784faebec8c8180bbe8d92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_795953b9332f446e9b3168fffe7e8c98.setIcon(icon_102eb1bdf5784faebec8c8180bbe8d92);
+        
+    
+            marker_795953b9332f446e9b3168fffe7e8c98.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_300eee57a6114ed19b48ae8f6f64b15f = L.marker(
+                [25.733083451814792, -80.30383193350178],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_b858687a8cba46cab44e13619ef6df98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_300eee57a6114ed19b48ae8f6f64b15f.setIcon(icon_b858687a8cba46cab44e13619ef6df98);
+        
+    
+            marker_300eee57a6114ed19b48ae8f6f64b15f.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b940a11aafbd4544a55336f54c7112b8 = L.marker(
+                [25.796894498394174, -80.28057985291233],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_724a77c171ee4c6e982e1fdc0677c8f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b940a11aafbd4544a55336f54c7112b8.setIcon(icon_724a77c171ee4c6e982e1fdc0677c8f5);
+        
+    
+            marker_b940a11aafbd4544a55336f54c7112b8.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fb66f79e7ae4d05a6fc9cb11e402763 = L.marker(
+                [25.725619686799135, -80.26309883520733],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_ac2e7bd22c3646b69965bc96359bd80a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9fb66f79e7ae4d05a6fc9cb11e402763.setIcon(icon_ac2e7bd22c3646b69965bc96359bd80a);
+        
+    
+            marker_9fb66f79e7ae4d05a6fc9cb11e402763.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_debd5b1a4b4d46e385e48d8ddd1b2f3b = L.marker(
+                [25.7326237, -80.23286027],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_8cb23f1ae7cc40e696574f343d5df3f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_debd5b1a4b4d46e385e48d8ddd1b2f3b.setIcon(icon_8cb23f1ae7cc40e696574f343d5df3f2);
+        
+    
+            marker_debd5b1a4b4d46e385e48d8ddd1b2f3b.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd9c5f8929a8413abece1109fc4e4236 = L.marker(
+                [25.77279, -80.26416],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_f398ec6828494f8295cd6009c32007f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_dd9c5f8929a8413abece1109fc4e4236.setIcon(icon_f398ec6828494f8295cd6009c32007f9);
+        
+    
+            marker_dd9c5f8929a8413abece1109fc4e4236.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_994add13531a43979604f7ea8745f229 = L.marker(
+                [25.797175, -80.279396],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_2623a38120324fb6add64e27acf9afb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_994add13531a43979604f7ea8745f229.setIcon(icon_2623a38120324fb6add64e27acf9afb3);
+        
+    
+            marker_994add13531a43979604f7ea8745f229.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e13235f50c145dfa4819ac8de63d6a3 = L.marker(
+                [25.749313824311862, -80.26063708608676],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_fa94b24dbcbe422dbca7617beee5f054 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4e13235f50c145dfa4819ac8de63d6a3.setIcon(icon_fa94b24dbcbe422dbca7617beee5f054);
+        
+    
+            marker_4e13235f50c145dfa4819ac8de63d6a3.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cfdc039c7fa451dbcd807716bcba0f7 = L.marker(
+                [25.721205, -80.278763],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_35913d1e795e4521b031b817fb56ec2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7cfdc039c7fa451dbcd807716bcba0f7.setIcon(icon_35913d1e795e4521b031b817fb56ec2e);
+        
+    
+            marker_7cfdc039c7fa451dbcd807716bcba0f7.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53a16a7ef058465ea9461dff57d011ba = L.marker(
+                [25.79136517, -80.36846633],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_8cf67616830d4dc7821ea8119916b4c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_53a16a7ef058465ea9461dff57d011ba.setIcon(icon_8cf67616830d4dc7821ea8119916b4c7);
+        
+    
+            marker_53a16a7ef058465ea9461dff57d011ba.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b657d7b79d941eb850aebeee2e17d85 = L.marker(
+                [25.82184581230259, -80.28130329383828],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_29f111f2e36b4a12a43dd3ef640bfb57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4b657d7b79d941eb850aebeee2e17d85.setIcon(icon_29f111f2e36b4a12a43dd3ef640bfb57);
+        
+    
+            marker_4b657d7b79d941eb850aebeee2e17d85.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf6862c90c934e61b2781072c12106f4 = L.marker(
+                [25.69499129, -80.30027318],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_711b8cf7a5d443d981de8729f216a21c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bf6862c90c934e61b2781072c12106f4.setIcon(icon_711b8cf7a5d443d981de8729f216a21c);
+        
+    
+            marker_bf6862c90c934e61b2781072c12106f4.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e8a28deca1e4bdf9d540443d023611a = L.marker(
+                [25.70441787328788, -80.28728062342938],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_656dead5d5e14be69a55c5a36277d30e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0e8a28deca1e4bdf9d540443d023611a.setIcon(icon_656dead5d5e14be69a55c5a36277d30e);
+        
+    
+            marker_0e8a28deca1e4bdf9d540443d023611a.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fc3e1e36fc14bc1a42305c3fd9c4c82 = L.marker(
+                [25.750551, -80.23803],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_d151598a80e34283bf0db5c53aac32e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5fc3e1e36fc14bc1a42305c3fd9c4c82.setIcon(icon_d151598a80e34283bf0db5c53aac32e1);
+        
+    
+            marker_5fc3e1e36fc14bc1a42305c3fd9c4c82.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fa2b0c56dbb4e8da0dcca877251bc61 = L.marker(
+                [25.77922904632698, -80.31279901731688],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_f0c316553a38496f80111938ee05cde3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4fa2b0c56dbb4e8da0dcca877251bc61.setIcon(icon_f0c316553a38496f80111938ee05cde3);
+        
+    
+            marker_4fa2b0c56dbb4e8da0dcca877251bc61.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b91b2bcf86eb485688b1e056d9047368 = L.marker(
+                [25.749334, -80.25885],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_d4fc0b1b2d9d4afdb09f21ac830f0e34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b91b2bcf86eb485688b1e056d9047368.setIcon(icon_d4fc0b1b2d9d4afdb09f21ac830f0e34);
+        
+    
+            marker_b91b2bcf86eb485688b1e056d9047368.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9610e6744a84e1ca5cdb5a48378ecdd = L.marker(
+                [25.81305515, -80.35379087],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_0b715f45a53940fcb5ba419442d579ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c9610e6744a84e1ca5cdb5a48378ecdd.setIcon(icon_0b715f45a53940fcb5ba419442d579ca);
+        
+    
+            marker_c9610e6744a84e1ca5cdb5a48378ecdd.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60f2a9c4c0794448ba6024371cb1074d = L.marker(
+                [25.790357, -80.210695],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_016739d9cd6942d98022efe791b12689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_60f2a9c4c0794448ba6024371cb1074d.setIcon(icon_016739d9cd6942d98022efe791b12689);
+        
+    
+            marker_60f2a9c4c0794448ba6024371cb1074d.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05b1697519734b47b18a97742bef6a83 = L.marker(
+                [25.749739924113555, -80.26392693748072],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_8262f1ca82514f2ba543a7fc61a7d75f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_05b1697519734b47b18a97742bef6a83.setIcon(icon_8262f1ca82514f2ba543a7fc61a7d75f);
+        
+    
+            marker_05b1697519734b47b18a97742bef6a83.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cff9951485641c0a2ceb1ecf3c9155d = L.marker(
+                [25.75559123822805, -80.37220253205881],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_b47a6ac696e140f0913432ec35ce7f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0cff9951485641c0a2ceb1ecf3c9155d.setIcon(icon_b47a6ac696e140f0913432ec35ce7f30);
+        
+    
+            marker_0cff9951485641c0a2ceb1ecf3c9155d.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f525b0e88bf641e78c35b26f9e7d82d9 = L.marker(
+                [25.793251, -80.264491],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_3e8157839cf844cfa26b3370a9be5a6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f525b0e88bf641e78c35b26f9e7d82d9.setIcon(icon_3e8157839cf844cfa26b3370a9be5a6d);
+        
+    
+            marker_f525b0e88bf641e78c35b26f9e7d82d9.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f96941f9fc16425198d01bd8d2518fcc = L.marker(
+                [25.76506041, -80.19297728],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_62e174fc4a7f43f9aa936f4ee3a334c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f96941f9fc16425198d01bd8d2518fcc.setIcon(icon_62e174fc4a7f43f9aa936f4ee3a334c0);
+        
+    
+            marker_f96941f9fc16425198d01bd8d2518fcc.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c06509c4b6ff45e8be30a6c08182d84e = L.marker(
+                [25.702105, -80.33358],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_b030373631a84dff81193c001bdc15d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c06509c4b6ff45e8be30a6c08182d84e.setIcon(icon_b030373631a84dff81193c001bdc15d5);
+        
+    
+            marker_c06509c4b6ff45e8be30a6c08182d84e.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdff1d4fe2064ebc96997bba03664f5d = L.marker(
+                [25.686430346278527, -80.31051535807782],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a52e95475bd44a9ca40b07361a9d985d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fdff1d4fe2064ebc96997bba03664f5d.setIcon(icon_a52e95475bd44a9ca40b07361a9d985d);
+        
+    
+            marker_fdff1d4fe2064ebc96997bba03664f5d.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2a08e4648be4feca5a893fdaa98b202 = L.marker(
+                [25.78763249714524, -80.38094736635685],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_b427158c59a842538e74ef9234997baf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a2a08e4648be4feca5a893fdaa98b202.setIcon(icon_b427158c59a842538e74ef9234997baf);
+        
+    
+            marker_a2a08e4648be4feca5a893fdaa98b202.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5501eab6206f425abb9c5559823d02b0 = L.marker(
+                [25.783754, -80.26312],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_ae7ac71138454a0cab8ec974afe463bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5501eab6206f425abb9c5559823d02b0.setIcon(icon_ae7ac71138454a0cab8ec974afe463bd);
+        
+    
+            marker_5501eab6206f425abb9c5559823d02b0.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aef85565fdd24d5ab6fa311a8dd0ae63 = L.marker(
+                [25.692942, -80.30471],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_d799f577aa624961b999899474f07c5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_aef85565fdd24d5ab6fa311a8dd0ae63.setIcon(icon_d799f577aa624961b999899474f07c5c);
+        
+    
+            marker_aef85565fdd24d5ab6fa311a8dd0ae63.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d57e7412f5fe496789e6b4aebfd9acc3 = L.marker(
+                [25.68798422, -80.32001118],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_c2e61a6877b848b79206b66204ad6e00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d57e7412f5fe496789e6b4aebfd9acc3.setIcon(icon_c2e61a6877b848b79206b66204ad6e00);
+        
+    
+            marker_d57e7412f5fe496789e6b4aebfd9acc3.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62e3d798be7b4bb8b3b616dfec783312 = L.marker(
+                [25.719220928394495, -80.27899294479754],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_75b03043c67b4a81a70cd30611789d0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_62e3d798be7b4bb8b3b616dfec783312.setIcon(icon_75b03043c67b4a81a70cd30611789d0d);
+        
+    
+            marker_62e3d798be7b4bb8b3b616dfec783312.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64db4824641a457c9fc6a9a8be8c54fa = L.marker(
+                [25.73575557677217, -80.32116417054546],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_fb0ca3e21dca43e18fcdf69c31183bb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_64db4824641a457c9fc6a9a8be8c54fa.setIcon(icon_fb0ca3e21dca43e18fcdf69c31183bb2);
+        
+    
+            marker_64db4824641a457c9fc6a9a8be8c54fa.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35bdff35ae754142af7f88ea77167e23 = L.marker(
+                [25.6906285, -80.31485615],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_4a90620440b144288d43a997a7fd60bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_35bdff35ae754142af7f88ea77167e23.setIcon(icon_4a90620440b144288d43a997a7fd60bb);
+        
+    
+            marker_35bdff35ae754142af7f88ea77167e23.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d12c5dc76724fe4892ca252764f6b7b = L.marker(
+                [25.76283636498586, -80.1930682735246],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_8ec252f4f1944f7bb43ae6f764106b36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9d12c5dc76724fe4892ca252764f6b7b.setIcon(icon_8ec252f4f1944f7bb43ae6f764106b36);
+        
+    
+            marker_9d12c5dc76724fe4892ca252764f6b7b.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_299421eeae734c8ebfb6bbe43154fce6 = L.marker(
+                [25.794401455981102, -80.26783012214645],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_c37217c04a2e460493d4b22b8104ed5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_299421eeae734c8ebfb6bbe43154fce6.setIcon(icon_c37217c04a2e460493d4b22b8104ed5d);
+        
+    
+            marker_299421eeae734c8ebfb6bbe43154fce6.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc619cbba4e44833b48bd3a55fd7e322 = L.marker(
+                [25.71646509009094, -80.27411487219302],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_8fcdfaa22fde482aabb23fbd67a557cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cc619cbba4e44833b48bd3a55fd7e322.setIcon(icon_8fcdfaa22fde482aabb23fbd67a557cb);
+        
+    
+            marker_cc619cbba4e44833b48bd3a55fd7e322.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcf5c8a2b81c48c4a638d67b3b34a095 = L.marker(
+                [25.7574, -80.376997],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_2fa622e42ae1437bbea0b8c9e634d369 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fcf5c8a2b81c48c4a638d67b3b34a095.setIcon(icon_2fa622e42ae1437bbea0b8c9e634d369);
+        
+    
+            marker_fcf5c8a2b81c48c4a638d67b3b34a095.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92ebe0a2851c4aba9566eb727d17d9cb = L.marker(
+                [25.788510931206112, -80.21542099772114],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_4be6f801b93e4c2c8f75ae876d55d55a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_92ebe0a2851c4aba9566eb727d17d9cb.setIcon(icon_4be6f801b93e4c2c8f75ae876d55d55a);
+        
+    
+            marker_92ebe0a2851c4aba9566eb727d17d9cb.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ade7fa1fb8246249881d4ae5238a3d1 = L.marker(
+                [25.853678, -80.31756],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_f7b3f1619913482eae1ff6d63d333b18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4ade7fa1fb8246249881d4ae5238a3d1.setIcon(icon_f7b3f1619913482eae1ff6d63d333b18);
+        
+    
+            marker_4ade7fa1fb8246249881d4ae5238a3d1.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4afd0c919f694592884d2eeca31ba560 = L.marker(
+                [25.791409, -80.21061],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a9799cb6487448e4a4daba3003ce2e22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4afd0c919f694592884d2eeca31ba560.setIcon(icon_a9799cb6487448e4a4daba3003ce2e22);
+        
+    
+            marker_4afd0c919f694592884d2eeca31ba560.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_692f635c6c1340f4b75fc02585be97ff = L.marker(
+                [25.760863899753023, -80.37639911604275],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_251fe555ab444b15bad22d7653b90e9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_692f635c6c1340f4b75fc02585be97ff.setIcon(icon_251fe555ab444b15bad22d7653b90e9d);
+        
+    
+            marker_692f635c6c1340f4b75fc02585be97ff.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d21fa1d7d9643299d69e8c18e78a83e = L.marker(
+                [25.771043847358445, -80.35990388668833],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_82554a5e522f4fa68d95cb511c36f7ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1d21fa1d7d9643299d69e8c18e78a83e.setIcon(icon_82554a5e522f4fa68d95cb511c36f7ae);
+        
+    
+            marker_1d21fa1d7d9643299d69e8c18e78a83e.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd1447247cfa419eaf663206a82e026b = L.marker(
+                [25.7742895, -80.19456721],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_3ebfaf98b1f24288a7ebba285570d3a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fd1447247cfa419eaf663206a82e026b.setIcon(icon_3ebfaf98b1f24288a7ebba285570d3a7);
+        
+    
+            marker_fd1447247cfa419eaf663206a82e026b.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2363cb5b4a94230b5b778d24343adf4 = L.marker(
+                [25.809234209573606, -80.26379083993115],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_b901716916f04452a9ba4d984dd3bdb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a2363cb5b4a94230b5b778d24343adf4.setIcon(icon_b901716916f04452a9ba4d984dd3bdb0);
+        
+    
+            marker_a2363cb5b4a94230b5b778d24343adf4.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33308b90aba04b24adfe50c2df4376ed = L.marker(
+                [25.75724929286531, -80.3738760072205],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_81df555655d74174aa6cf2f69eb5e6f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_33308b90aba04b24adfe50c2df4376ed.setIcon(icon_81df555655d74174aa6cf2f69eb5e6f9);
+        
+    
+            marker_33308b90aba04b24adfe50c2df4376ed.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_881a1318989c479bbf2f90dd9a0d018d = L.marker(
+                [25.762752, -80.192287],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_96c9e0a6e152429db8caf5918013b7ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_881a1318989c479bbf2f90dd9a0d018d.setIcon(icon_96c9e0a6e152429db8caf5918013b7ee);
+        
+    
+            marker_881a1318989c479bbf2f90dd9a0d018d.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb1da13744e24287a8ef5e972488369e = L.marker(
+                [25.821022284923036, -80.36499227791334],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_3e66a5341b0f4a9fa6255de8e0d7cd6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cb1da13744e24287a8ef5e972488369e.setIcon(icon_3e66a5341b0f4a9fa6255de8e0d7cd6c);
+        
+    
+            marker_cb1da13744e24287a8ef5e972488369e.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc9e7fa483724af5957cc20684ab2701 = L.marker(
+                [25.79851, -80.272834],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_70d60860081343d280aa23d49c1fc34c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fc9e7fa483724af5957cc20684ab2701.setIcon(icon_70d60860081343d280aa23d49c1fc34c);
+        
+    
+            marker_fc9e7fa483724af5957cc20684ab2701.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56811a7ad94d4ae59a3e7c7418954e21 = L.marker(
+                [25.794319399220146, -80.2787733078003],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_4d8cb70bc3784c299dd048c0c22fdb2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_56811a7ad94d4ae59a3e7c7418954e21.setIcon(icon_4d8cb70bc3784c299dd048c0c22fdb2d);
+        
+    
+            marker_56811a7ad94d4ae59a3e7c7418954e21.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9aa434e68c614155868879f559733941 = L.marker(
+                [25.719182, -80.27589],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_2172b6b910224b1bada1248f06abaf27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9aa434e68c614155868879f559733941.setIcon(icon_2172b6b910224b1bada1248f06abaf27);
+        
+    
+            marker_9aa434e68c614155868879f559733941.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de324531589846d88134e4cd6f76ad73 = L.marker(
+                [25.792191914582887, -80.27673482894897],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_69216f62ba2e49e981de0e2f08a159e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_de324531589846d88134e4cd6f76ad73.setIcon(icon_69216f62ba2e49e981de0e2f08a159e5);
+        
+    
+            marker_de324531589846d88134e4cd6f76ad73.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b0792d664d045feaaae8b8e98e47dff = L.marker(
+                [25.791962073951115, -80.2736322106187],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a1536440ef974ba995b637bc498f9ae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "black", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3b0792d664d045feaaae8b8e98e47dff.setIcon(icon_a1536440ef974ba995b637bc498f9ae5);
+        
+    
+            marker_3b0792d664d045feaaae8b8e98e47dff.bindTooltip(
+                `<div>
+                     Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d71b65708834b30a2894e58a08de805 = L.marker(
+                [25.779356, -80.252728],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_831543432e644ba890c9c2a013072c5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_3d71b65708834b30a2894e58a08de805.setIcon(icon_831543432e644ba890c9c2a013072c5b);
+        
+    
+            marker_3d71b65708834b30a2894e58a08de805.bindTooltip(
+                `<div>
+                     Green Springs High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22cb7bd658a5443195ce92d67af1b7e8 = L.marker(
+                [25.741343567661616, -80.33674579897055],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_6ed09eea50b247d6a21901674a09078c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_22cb7bd658a5443195ce92d67af1b7e8.setIcon(icon_6ed09eea50b247d6a21901674a09078c);
+        
+    
+            marker_22cb7bd658a5443195ce92d67af1b7e8.bindTooltip(
+                `<div>
+                     Christopher Columbus High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b135fe1aa80f47998f0e0da6ff716d99 = L.marker(
+                [25.734540939331055, -80.26329803466797],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_eadb08f2dc6f4b55b99d028f13ef6f29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b135fe1aa80f47998f0e0da6ff716d99.setIcon(icon_eadb08f2dc6f4b55b99d028f13ef6f29);
+        
+    
+            marker_b135fe1aa80f47998f0e0da6ff716d99.bindTooltip(
+                `<div>
+                     Coral Gables Senior High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f101e96120604b0cb16935fb04e00c7f = L.marker(
+                [25.733819877454142, -80.26294158628366],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_4c75c028cd9e43b5b8835c0bdca150ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_f101e96120604b0cb16935fb04e00c7f.setIcon(icon_4c75c028cd9e43b5b8835c0bdca150ca);
+        
+    
+            marker_f101e96120604b0cb16935fb04e00c7f.bindTooltip(
+                `<div>
+                     Coral Gables High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79fca48a84f34610be47c385ce059200 = L.marker(
+                [25.734012603759766, -80.2562484741211],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_82b88be69f2d4e96a3e5041336b4db42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_79fca48a84f34610be47c385ce059200.setIcon(icon_82b88be69f2d4e96a3e5041336b4db42);
+        
+    
+            marker_79fca48a84f34610be47c385ce059200.bindTooltip(
+                `<div>
+                     The fun spot miam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e9d7fc087e648538871621928877c86 = L.marker(
+                [25.755144690906867, -80.33850808262979],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_e508b7b83ca7431083feb53bbde751cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_2e9d7fc087e648538871621928877c86.setIcon(icon_e508b7b83ca7431083feb53bbde751cf);
+        
+    
+            marker_2e9d7fc087e648538871621928877c86.bindTooltip(
+                `<div>
+                     Miami Coral Park Senior High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12bf6e6969a9423c8cfa06191e5ad09b = L.marker(
+                [25.770866, -80.237071],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_849cd25ca27f444f89d3f3a45be16bd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_12bf6e6969a9423c8cfa06191e5ad09b.setIcon(icon_849cd25ca27f444f89d3f3a45be16bd5);
+        
+    
+            marker_12bf6e6969a9423c8cfa06191e5ad09b.bindTooltip(
+                `<div>
+                     Million Dollar Band Room at Miami High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2468e2ea36ce439da46410514b160dc6 = L.marker(
+                [25.771077664850367, -80.23594613197587],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_b8cf323e389f45f8b6c69fc6a71f3551 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_2468e2ea36ce439da46410514b160dc6.setIcon(icon_b8cf323e389f45f8b6c69fc6a71f3551);
+        
+    
+            marker_2468e2ea36ce439da46410514b160dc6.bindTooltip(
+                `<div>
+                     Miami Senior High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25fe9818d0874c25831fd245b542182c = L.marker(
+                [25.764051050676482, -80.2350584793269],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_7963211ca45a4c7ca1277c5177f2cad5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_25fe9818d0874c25831fd245b542182c.setIcon(icon_7963211ca45a4c7ca1277c5177f2cad5);
+        
+    
+            marker_25fe9818d0874c25831fd245b542182c.bindTooltip(
+                `<div>
+                     Bayside High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb6db0eafd134ddebf6246558f8933db = L.marker(
+                [25.742554305190737, -80.33751272324861],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a214e34d0e5a41698eab195f4c7a8939 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_cb6db0eafd134ddebf6246558f8933db.setIcon(icon_a214e34d0e5a41698eab195f4c7a8939);
+        
+    
+            marker_cb6db0eafd134ddebf6246558f8933db.bindTooltip(
+                `<div>
+                     St Brendan High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a08e6f3a5a04f4aa9a7036c4bce00b3 = L.marker(
+                [25.719638373681992, -80.30489867716989],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_4a5f339121904aa3aa44e687f9168cdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_0a08e6f3a5a04f4aa9a7036c4bce00b3.setIcon(icon_4a5f339121904aa3aa44e687f9168cdf);
+        
+    
+            marker_0a08e6f3a5a04f4aa9a7036c4bce00b3.bindTooltip(
+                `<div>
+                     South Miami Senior High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8464e30f07344f7c9cc77d0c5e1aaf17 = L.marker(
+                [25.718727171795283, -80.3055026549106],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_42b776416cd44449b3759bbc46f24c2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_8464e30f07344f7c9cc77d0c5e1aaf17.setIcon(icon_42b776416cd44449b3759bbc46f24c2d);
+        
+    
+            marker_8464e30f07344f7c9cc77d0c5e1aaf17.bindTooltip(
+                `<div>
+                     South Miami High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d337d851a1d34c7593fbade9ee5942d3 = L.marker(
+                [25.7142725602339, -80.30224262011536],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_efd8b6699674420db5b53e3a71fc683d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_d337d851a1d34c7593fbade9ee5942d3.setIcon(icon_efd8b6699674420db5b53e3a71fc683d);
+        
+    
+            marker_d337d851a1d34c7593fbade9ee5942d3.bindTooltip(
+                `<div>
+                     South Miami Middle Community School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_706090b38b124893901f6f2ea4ed9cfe = L.marker(
+                [25.730473457775176, -80.34000196185376],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_c358cca050c94e949364d298cda40723 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_706090b38b124893901f6f2ea4ed9cfe.setIcon(icon_c358cca050c94e949364d298cda40723);
+        
+    
+            marker_706090b38b124893901f6f2ea4ed9cfe.bindTooltip(
+                `<div>
+                     Florida Christian School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36bb40b88c0b46ca94ef97d9740c7373 = L.marker(
+                [25.805331220935333, -80.34255623817444],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_978cda4890374ee98a0d220dfb06f792 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_36bb40b88c0b46ca94ef97d9740c7373.setIcon(icon_978cda4890374ee98a0d220dfb06f792);
+        
+    
+            marker_36bb40b88c0b46ca94ef97d9740c7373.bindTooltip(
+                `<div>
+                     The Learning World Academy Doral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fa8d65593ef407a8f2042b8aac29d90 = L.marker(
+                [25.830381905148407, -80.29462495241407],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_5bff22b873474c99926fd17b43755070 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_1fa8d65593ef407a8f2042b8aac29d90.setIcon(icon_5bff22b873474c99926fd17b43755070);
+        
+    
+            marker_1fa8d65593ef407a8f2042b8aac29d90.bindTooltip(
+                `<div>
+                     Miami Springs Senior High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d379bc16a0648d78a586da8b3805a16 = L.marker(
+                [25.705231, -80.285356],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_51b37a6a38e346ddaa04df430a9a1cc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_1d379bc16a0648d78a586da8b3805a16.setIcon(icon_51b37a6a38e346ddaa04df430a9a1cc1);
+        
+    
+            marker_1d379bc16a0648d78a586da8b3805a16.bindTooltip(
+                `<div>
+                     Ispa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bff187f701440aeac63e728fbdcbded = L.marker(
+                [25.722813268250583, -80.33894062042236],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_6466e3942ca84ec7b05978928e2d8903 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_1bff187f701440aeac63e728fbdcbded.setIcon(icon_6466e3942ca84ec7b05978928e2d8903);
+        
+    
+            marker_1bff187f701440aeac63e728fbdcbded.bindTooltip(
+                `<div>
+                     Southwest Miami Senior High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f0bd45b335446c0a30470eea568ceea = L.marker(
+                [25.8213, -80.237429],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_8391e2935689436cb9d7e21c7b75eb68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_4f0bd45b335446c0a30470eea568ceea.setIcon(icon_8391e2935689436cb9d7e21c7b75eb68);
+        
+    
+            marker_4f0bd45b335446c0a30470eea568ceea.bindTooltip(
+                `<div>
+                     corporate Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0bcabd6b72349f987929f659e47ceb4 = L.marker(
+                [25.772357, -80.210964],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_7569f604b69a42808f4f15df4abd0c37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_a0bcabd6b72349f987929f659e47ceb4.setIcon(icon_7569f604b69a42808f4f15df4abd0c37);
+        
+    
+            marker_a0bcabd6b72349f987929f659e47ceb4.bindTooltip(
+                `<div>
+                     Mater Academy East Highschool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_623827b1cbe2447eb803af32b747a2dc = L.marker(
+                [25.809993097862588, -80.22548431119802],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_824d7211737f456cabcc49fe28b2865f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_623827b1cbe2447eb803af32b747a2dc.setIcon(icon_824d7211737f456cabcc49fe28b2865f);
+        
+    
+            marker_623827b1cbe2447eb803af32b747a2dc.bindTooltip(
+                `<div>
+                     Miami Jackson Senior High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25703ac30c54408e9c2d319e1bfeec61 = L.marker(
+                [25.840348000000002, -80.294712],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_d9512c68580e406797376f6025867fc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_25703ac30c54408e9c2d319e1bfeec61.setIcon(icon_d9512c68580e406797376f6025867fc1);
+        
+    
+            marker_25703ac30c54408e9c2d319e1bfeec61.bindTooltip(
+                `<div>
+                     iMater Middle High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54fd28a799144442a49b6d7a7d06058c = L.marker(
+                [25.74217416704153, -80.21270073543928],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_f945bd6011fe465184ae071fa5c20743 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_54fd28a799144442a49b6d7a7d06058c.setIcon(icon_f945bd6011fe465184ae071fa5c20743);
+        
+    
+            marker_54fd28a799144442a49b6d7a7d06058c.bindTooltip(
+                `<div>
+                     Immaculata La Salle High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c2b3086d4644042a07ff6b3c03879f4 = L.marker(
+                [25.697748, -80.31617399999999],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_dc47da72ba41487e9fc464cea7099ae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_7c2b3086d4644042a07ff6b3c03879f4.setIcon(icon_dc47da72ba41487e9fc464cea7099ae5);
+        
+    
+            marker_7c2b3086d4644042a07ff6b3c03879f4.bindTooltip(
+                `<div>
+                     MLC Preparatory Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33036842b53e414bacf59f89bdea2be4 = L.marker(
+                [25.785767, -80.204532],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_2581f4380ef94011abaee1fd30e3763c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_33036842b53e414bacf59f89bdea2be4.setIcon(icon_2581f4380ef94011abaee1fd30e3763c);
+        
+    
+            marker_33036842b53e414bacf59f89bdea2be4.bindTooltip(
+                `<div>
+                     Booker T. Washington Senior High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3bf25edef8c4db69b8ae53a85e98808 = L.marker(
+                [25.69011631322461, -80.29978917901502],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_19f6211275f649d7a67e48ff0756560c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_d3bf25edef8c4db69b8ae53a85e98808.setIcon(icon_19f6211275f649d7a67e48ff0756560c);
+        
+    
+            marker_d3bf25edef8c4db69b8ae53a85e98808.bindTooltip(
+                `<div>
+                     Gulliver Prep
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9255ce27b1a84f5b9c6e08f03e23aaca = L.marker(
+                [25.79845184544425, -80.37474768483337],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_d68aaa13a07a4064a6bdf7a93580981f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_9255ce27b1a84f5b9c6e08f03e23aaca.setIcon(icon_d68aaa13a07a4064a6bdf7a93580981f);
+        
+    
+            marker_9255ce27b1a84f5b9c6e08f03e23aaca.bindTooltip(
+                `<div>
+                     Doral Academy Charter High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b662d5b184244a768b712475a2e4d561 = L.marker(
+                [25.777124404907227, -80.19847869873047],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_397f931ae79c47c78bef2ebe8ec739a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b662d5b184244a768b712475a2e4d561.setIcon(icon_397f931ae79c47c78bef2ebe8ec739a2);
+        
+    
+            marker_b662d5b184244a768b712475a2e4d561.bindTooltip(
+                `<div>
+                     Law Enforcement Officers Memorial High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1afec7eb2e140d99b7d8755a9385f79 = L.marker(
+                [25.805269, -80.198886],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_557044ccf74b411c92cb7c6f6f55b4b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b1afec7eb2e140d99b7d8755a9385f79.setIcon(icon_557044ccf74b411c92cb7c6f6f55b4b1);
+        
+    
+            marker_b1afec7eb2e140d99b7d8755a9385f79.bindTooltip(
+                `<div>
+                     Young Men's Preparatory Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d01c2ba152d4739b8cf582e00a4570b = L.marker(
+                [25.76699779840081, -80.19483998719807],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_59e095c6a2244803a9f5a034be621ad6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_4d01c2ba152d4739b8cf582e00a4570b.setIcon(icon_59e095c6a2244803a9f5a034be621ad6);
+        
+    
+            marker_4d01c2ba152d4739b8cf582e00a4570b.bindTooltip(
+                `<div>
+                     G.R.Academic Exchange Programs LLC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16e3a235511043ff854c442c3a56858c = L.marker(
+                [25.684941104690857, -80.31478623639453],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_0cedd698372a4e23b9324053b0f136e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_16e3a235511043ff854c442c3a56858c.setIcon(icon_0cedd698372a4e23b9324053b0f136e0);
+        
+    
+            marker_16e3a235511043ff854c442c3a56858c.bindTooltip(
+                `<div>
+                     Fusion Academy Miami
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a5345beec3c4416bff157646b62bae3 = L.marker(
+                [25.743479148562226, -80.33797937347757],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_8369da32068e4186a0106429262918cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_1a5345beec3c4416bff157646b62bae3.setIcon(icon_8369da32068e4186a0106429262918cd);
+        
+    
+            marker_1a5345beec3c4416bff157646b62bae3.bindTooltip(
+                `<div>
+                     St John Vianney College Seminary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65045672476c461b885b8a74d1a02999 = L.marker(
+                [25.777925678820523, -80.19033711961252],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_4413bb38d10c4a58b7c79ceacd9ae597 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_65045672476c461b885b8a74d1a02999.setIcon(icon_4413bb38d10c4a58b7c79ceacd9ae597);
+        
+    
+            marker_65045672476c461b885b8a74d1a02999.bindTooltip(
+                `<div>
+                     Miami Dade College Wolfson Campus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ceb8034e68b8468ca1c552f0986138e9 = L.marker(
+                [25.74865785184631, -80.31736368365912],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a17de006085c41d2af55237ad83106f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ceb8034e68b8468ca1c552f0986138e9.setIcon(icon_a17de006085c41d2af55237ad83106f8);
+        
+    
+            marker_ceb8034e68b8468ca1c552f0986138e9.bindTooltip(
+                `<div>
+                     West Miami Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58c0002816bb48fda918aa1b8daa910a = L.marker(
+                [25.814144134521484, -80.27408599853516],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_e53bcf0774404306968681b3b72464ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_58c0002816bb48fda918aa1b8daa910a.setIcon(icon_e53bcf0774404306968681b3b72464ee);
+        
+    
+            marker_58c0002816bb48fda918aa1b8daa910a.bindTooltip(
+                `<div>
+                     Miami springs middle school
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48d2174db3d54e5284726c53b754a636 = L.marker(
+                [25.753792999999998, -80.22725799999999],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_02e02c416133449599ba34bbac6174a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_48d2174db3d54e5284726c53b754a636.setIcon(icon_02e02c416133449599ba34bbac6174a1);
+        
+    
+            marker_48d2174db3d54e5284726c53b754a636.bindTooltip(
+                `<div>
+                     Shenandoah Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3f239d3d44248df991428f6252afb58 = L.marker(
+                [25.77166244596722, -80.35418751717609],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_263e9121099143aa9ed6b2145e2a87ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b3f239d3d44248df991428f6252afb58.setIcon(icon_263e9121099143aa9ed6b2145e2a87ab);
+        
+    
+            marker_b3f239d3d44248df991428f6252afb58.bindTooltip(
+                `<div>
+                     Ruben Dario Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90bc591e74f14952a10b1d777f4463d1 = L.marker(
+                [25.776559829711914, -80.23008728027344],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_06189e1a50a24cc499f7b8f7ba25c62a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_90bc591e74f14952a10b1d777f4463d1.setIcon(icon_06189e1a50a24cc499f7b8f7ba25c62a);
+        
+    
+            marker_90bc591e74f14952a10b1d777f4463d1.bindTooltip(
+                `<div>
+                     Citrus Grove Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3874f9ecbc1d49908ac41fb269723dd0 = L.marker(
+                [25.739417227932837, -80.22673696560449],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_677aa2f812524a1890e10ed173e5b6ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3874f9ecbc1d49908ac41fb269723dd0.setIcon(icon_677aa2f812524a1890e10ed173e5b6ef);
+        
+    
+            marker_3874f9ecbc1d49908ac41fb269723dd0.bindTooltip(
+                `<div>
+                     Ransom Everglades Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8100751dae9449ef984c3e6efdf851d8 = L.marker(
+                [25.819448471069336, -80.23554229736328],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_211fd24894cc4464b223e4a439a1ab85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8100751dae9449ef984c3e6efdf851d8.setIcon(icon_211fd24894cc4464b223e4a439a1ab85);
+        
+    
+            marker_8100751dae9449ef984c3e6efdf851d8.bindTooltip(
+                `<div>
+                     Brownsville Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d640e0edd38e4506a9c95c953fdc1461 = L.marker(
+                [25.75431481567189, -80.21639929157959],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_e50f59ca979f4ff7a7d6ae7212749d66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d640e0edd38e4506a9c95c953fdc1461.setIcon(icon_e50f59ca979f4ff7a7d6ae7212749d66);
+        
+    
+            marker_d640e0edd38e4506a9c95c953fdc1461.bindTooltip(
+                `<div>
+                     Coral Way K-8 Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e860bd154dd2428da278a4dd2b058adc = L.marker(
+                [25.780090641432487, -80.21509746171961],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_34734032c70b49138eef5e4855c1c8b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e860bd154dd2428da278a4dd2b058adc.setIcon(icon_34734032c70b49138eef5e4855c1c8b5);
+        
+    
+            marker_e860bd154dd2428da278a4dd2b058adc.bindTooltip(
+                `<div>
+                     Slam Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acbfcb1d6aeb40538b3fd0615ebb6660 = L.marker(
+                [25.723035578092624, -80.36294639110565],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_de16aedde85d4bc3bd0eff570e3e9e7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_acbfcb1d6aeb40538b3fd0615ebb6660.setIcon(icon_de16aedde85d4bc3bd0eff570e3e9e7c);
+        
+    
+            marker_acbfcb1d6aeb40538b3fd0615ebb6660.bindTooltip(
+                `<div>
+                     Riviera Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_798c940327214ab79393e74cb84c0b76 = L.marker(
+                [25.85205078125, -80.25346374511719],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_96fe060ee3d14c8f8b9ed94b61d35464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_798c940327214ab79393e74cb84c0b76.setIcon(icon_96fe060ee3d14c8f8b9ed94b61d35464);
+        
+    
+            marker_798c940327214ab79393e74cb84c0b76.bindTooltip(
+                `<div>
+                     Madison Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddafe55b7c9f4ac5aea9f9581c1a05d1 = L.marker(
+                [25.7022, -80.31647],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_3293f71b2bf84196b19caad7962f6386 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_ddafe55b7c9f4ac5aea9f9581c1a05d1.setIcon(icon_3293f71b2bf84196b19caad7962f6386);
+        
+    
+            marker_ddafe55b7c9f4ac5aea9f9581c1a05d1.bindTooltip(
+                `<div>
+                     The Carrie Brazer Center For Autism
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13880a2498aa4d96a82949ff653327d2 = L.marker(
+                [25.76414608426476, -80.19161224365234],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_5dfd786d1d1d43119a58f1b6cbc4d0c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_13880a2498aa4d96a82949ff653327d2.setIcon(icon_5dfd786d1d1d43119a58f1b6cbc4d0c3);
+        
+    
+            marker_13880a2498aa4d96a82949ff653327d2.bindTooltip(
+                `<div>
+                     KLA Schools Brickell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bbc26e77cc74eb7ad35e51d27a1697c = L.marker(
+                [25.76767672880977, -80.38785332476215],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_b39a789d8aa24fb5922b95502438ddaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "black", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4bbc26e77cc74eb7ad35e51d27a1697c.setIcon(icon_b39a789d8aa24fb5922b95502438ddaa);
+        
+    
+            marker_4bbc26e77cc74eb7ad35e51d27a1697c.bindTooltip(
+                `<div>
+                     Paul W. Bell Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2db725f083c4822a89ec5db9a0d57cd = L.marker(
+                [25.774658565268982, -80.26630044358977],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a0d83bdfc03e45529c4e66b450e3e020 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_b2db725f083c4822a89ec5db9a0d57cd.setIcon(icon_a0d83bdfc03e45529c4e66b450e3e020);
+        
+    
+            marker_b2db725f083c4822a89ec5db9a0d57cd.bindTooltip(
+                `<div>
+                     Kinlock Park Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_713354a53d9b40aba9e62f85878dc709 = L.marker(
+                [25.761148762737566, -80.31905910103241],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_1ced6252c8d04136bc9c773e9c3fcfaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_713354a53d9b40aba9e62f85878dc709.setIcon(icon_1ced6252c8d04136bc9c773e9c3fcfaa);
+        
+    
+            marker_713354a53d9b40aba9e62f85878dc709.bindTooltip(
+                `<div>
+                     Flagami Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff6b5b3d964548fca94882cc503f56a1 = L.marker(
+                [25.684941104690857, -80.31478623639453],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_e7c055e7ac50479a834728e563f16ef4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_ff6b5b3d964548fca94882cc503f56a1.setIcon(icon_e7c055e7ac50479a834728e563f16ef4);
+        
+    
+            marker_ff6b5b3d964548fca94882cc503f56a1.bindTooltip(
+                `<div>
+                     Fusion Academy Miami
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60d65c567c214f7c88a8b75d8e66435f = L.marker(
+                [25.7142725602339, -80.30224262011536],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_fb608ae468774257bc251bdbff5fcc2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "black", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_60d65c567c214f7c88a8b75d8e66435f.setIcon(icon_fb608ae468774257bc251bdbff5fcc2b);
+        
+    
+            marker_60d65c567c214f7c88a8b75d8e66435f.bindTooltip(
+                `<div>
+                     South Miami Middle Community School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ae02e57d1974a3f9974ea3954fb08c8 = L.marker(
+                [25.743479148562226, -80.33797937347757],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_d8f6678a396c4ae1a7f6e661a2119dd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_2ae02e57d1974a3f9974ea3954fb08c8.setIcon(icon_d8f6678a396c4ae1a7f6e661a2119dd7);
+        
+    
+            marker_2ae02e57d1974a3f9974ea3954fb08c8.bindTooltip(
+                `<div>
+                     St John Vianney College Seminary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae2ce86d53124b9184ec193d4dc57c38 = L.marker(
+                [25.725181579589844, -80.25804138183594],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_f5022e3fe085471eb20678537dcfc087 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_ae2ce86d53124b9184ec193d4dc57c38.setIcon(icon_f5022e3fe085471eb20678537dcfc087);
+        
+    
+            marker_ae2ce86d53124b9184ec193d4dc57c38.bindTooltip(
+                `<div>
+                     George Washington Carver Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f321a454d1140baa1b1bfaa959ae2d7 = L.marker(
+                [25.715676754735547, -80.27222711360942],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_e6c1b057f7bd4040ae2e57119613ae08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_3f321a454d1140baa1b1bfaa959ae2d7.setIcon(icon_e6c1b057f7bd4040ae2e57119613ae08);
+        
+    
+            marker_3f321a454d1140baa1b1bfaa959ae2d7.bindTooltip(
+                `<div>
+                     Ponce De Leon Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3135b552de0421e81153b1f466b095b = L.marker(
+                [25.822444036784972, -80.28453502563423],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_7ad93abd29ab49a1ab6438fc8536120b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_c3135b552de0421e81153b1f466b095b.setIcon(icon_7ad93abd29ab49a1ab6438fc8536120b);
+        
+    
+            marker_c3135b552de0421e81153b1f466b095b.bindTooltip(
+                `<div>
+                     Miami Springs Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cafe9fdbbb754f41b4c26e3d70a10e77 = L.marker(
+                [25.743465932312482, -80.2356433080671],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_0065074b66b54fa196ed9de1ead87aa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_cafe9fdbbb754f41b4c26e3d70a10e77.setIcon(icon_0065074b66b54fa196ed9de1ead87aa0);
+        
+    
+            marker_cafe9fdbbb754f41b4c26e3d70a10e77.bindTooltip(
+                `<div>
+                     Silver Bluff Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_795b586c08d14c818513efd5a7d4f861 = L.marker(
+                [25.82614385366958, -80.27759468868076],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_759a355d51234d1b863f6ae8158b80c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_795b586c08d14c818513efd5a7d4f861.setIcon(icon_759a355d51234d1b863f6ae8158b80c6);
+        
+    
+            marker_795b586c08d14c818513efd5a7d4f861.bindTooltip(
+                `<div>
+                     South Hialeah Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b0b9a9f7b074703a41a2a2256d3e281 = L.marker(
+                [25.743452072143555, -80.3475570678711],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_725eda020af94048a0bcbfeeacb24ad7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_7b0b9a9f7b074703a41a2a2256d3e281.setIcon(icon_725eda020af94048a0bcbfeeacb24ad7);
+        
+    
+            marker_7b0b9a9f7b074703a41a2a2256d3e281.bindTooltip(
+                `<div>
+                     Rockway Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f776e877c07d4dcc84340686c2950604 = L.marker(
+                [25.704743669781447, -80.27652862284992],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_6f16942297fc4c878b559bec002983c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_f776e877c07d4dcc84340686c2950604.setIcon(icon_6f16942297fc4c878b559bec002983c9);
+        
+    
+            marker_f776e877c07d4dcc84340686c2950604.bindTooltip(
+                `<div>
+                     Sunset Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f673dab265884e02a6fc01329a6627e2 = L.marker(
+                [25.795289055043266, -80.3557427923721],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_38b6ecc1572443c2897834ed4bdb1d0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_f673dab265884e02a6fc01329a6627e2.setIcon(icon_38b6ecc1572443c2897834ed4bdb1d0e);
+        
+    
+            marker_f673dab265884e02a6fc01329a6627e2.bindTooltip(
+                `<div>
+                     Doral Academy Elementry School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13adbfa76a464c9cabb9cdce71be3f03 = L.marker(
+                [25.771990685103003, -80.21346200889128],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_dbef78643bf24a86aeff848810e4521a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_13adbfa76a464c9cabb9cdce71be3f03.setIcon(icon_dbef78643bf24a86aeff848810e4521a);
+        
+    
+            marker_13adbfa76a464c9cabb9cdce71be3f03.bindTooltip(
+                `<div>
+                     Riverside Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d302ce82a7814ef9813027ccd5f72681 = L.marker(
+                [25.717981338500977, -80.34420776367188],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_1b2350da9f474f2eac6c93bf1a80c32c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_d302ce82a7814ef9813027ccd5f72681.setIcon(icon_1b2350da9f474f2eac6c93bf1a80c32c);
+        
+    
+            marker_d302ce82a7814ef9813027ccd5f72681.bindTooltip(
+                `<div>
+                     Blue Lakes Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae8589e05172463f887b258d37e6e850 = L.marker(
+                [25.79270090553355, -80.366868151508],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_f192428a987444d7879e1a51c2a6c852 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_ae8589e05172463f887b258d37e6e850.setIcon(icon_f192428a987444d7879e1a51c2a6c852);
+        
+    
+            marker_ae8589e05172463f887b258d37e6e850.bindTooltip(
+                `<div>
+                     Renaissance Elementary Charter School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f4777681a8c4ae2b62434cd9038e8f1 = L.marker(
+                [25.770790051386424, -80.20521053105323],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_f2c04ccc3a8440878c2ce6f9051ee864 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_2f4777681a8c4ae2b62434cd9038e8f1.setIcon(icon_f2c04ccc3a8440878c2ce6f9051ee864);
+        
+    
+            marker_2f4777681a8c4ae2b62434cd9038e8f1.bindTooltip(
+                `<div>
+                     Ada Merritt Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c49c38a4d61441d99d4563ebf63fb47 = L.marker(
+                [25.806377633658403, -80.20335255579525],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a3f504876c6d4c248a60a2318bb4d2c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_2c49c38a4d61441d99d4563ebf63fb47.setIcon(icon_a3f504876c6d4c248a60a2318bb4d2c9);
+        
+    
+            marker_2c49c38a4d61441d99d4563ebf63fb47.bindTooltip(
+                `<div>
+                     Jose De Diego Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_597f0709cc35452a8bd0d936a00d2672 = L.marker(
+                [25.793467519424038, -80.19827485084534],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_e31c5048eb45464ab7b83a1b4cc432cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_597f0709cc35452a8bd0d936a00d2672.setIcon(icon_e31c5048eb45464ab7b83a1b4cc432cd);
+        
+    
+            marker_597f0709cc35452a8bd0d936a00d2672.bindTooltip(
+                `<div>
+                     Phillis Wheatley Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc88bf8880314e17b5e5c9f8e6f29ca1 = L.marker(
+                [25.758851029811986, -80.38271427154541],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_286eb8b1dd144d83a30707fbd2c8f023 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_fc88bf8880314e17b5e5c9f8e6f29ca1.setIcon(icon_286eb8b1dd144d83a30707fbd2c8f023);
+        
+    
+            marker_fc88bf8880314e17b5e5c9f8e6f29ca1.bindTooltip(
+                `<div>
+                     Dr. Carlos J. Finlay Elementary (FIU Modesto A. Maidique Campus)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e249bfadca7b44008c6f4f602de9de6a = L.marker(
+                [25.727385196027882, -80.25921239100144],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_20cf93c231684a70b17b2742986b8f77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_e249bfadca7b44008c6f4f602de9de6a.setIcon(icon_20cf93c231684a70b17b2742986b8f77);
+        
+    
+            marker_e249bfadca7b44008c6f4f602de9de6a.bindTooltip(
+                `<div>
+                     George Washington Carver Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d9a3dcfb9ab4c19bf0fd702d5d15952 = L.marker(
+                [25.740108489990234, -80.30229187011719],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a80d97ff44cc4c6db6a6065eef880933 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_3d9a3dcfb9ab4c19bf0fd702d5d15952.setIcon(icon_a80d97ff44cc4c6db6a6065eef880933);
+        
+    
+            marker_3d9a3dcfb9ab4c19bf0fd702d5d15952.bindTooltip(
+                `<div>
+                     Learning World Academy Coral Gables
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01519cb3b2ca45ad8d3625baed135c44 = L.marker(
+                [25.733918586497463, -80.2906608581543],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_ef97b5a8bdc142faaf28ef08261f819d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_01519cb3b2ca45ad8d3625baed135c44.setIcon(icon_ef97b5a8bdc142faaf28ef08261f819d);
+        
+    
+            marker_01519cb3b2ca45ad8d3625baed135c44.bindTooltip(
+                `<div>
+                     Bottega Child Development Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28866d8e24d1424f9aee3f7fbf86ec84 = L.marker(
+                [25.7354455, -80.2623646],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_5c7b1bfe89ed4ab6b40da4725da765be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_28866d8e24d1424f9aee3f7fbf86ec84.setIcon(icon_5c7b1bfe89ed4ab6b40da4725da765be);
+        
+    
+            marker_28866d8e24d1424f9aee3f7fbf86ec84.bindTooltip(
+                `<div>
+                     ICS Coral Gables | Daycare & Private Preschool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcaf98725bc24b2c8a210bf2103676ef = L.marker(
+                [25.733953, -80.256273],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_9bc38308ff6745e1a3503b2faa890e3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_fcaf98725bc24b2c8a210bf2103676ef.setIcon(icon_9bc38308ff6745e1a3503b2faa890e3b);
+        
+    
+            marker_fcaf98725bc24b2c8a210bf2103676ef.bindTooltip(
+                `<div>
+                     Key Point Academy Coral Gables
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b999380dfa54bcbac195db9ab553259 = L.marker(
+                [25.73599, -80.253695],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_c20a942497b64f10bf5d4b427ed378e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_5b999380dfa54bcbac195db9ab553259.setIcon(icon_c20a942497b64f10bf5d4b427ed378e6);
+        
+    
+            marker_5b999380dfa54bcbac195db9ab553259.bindTooltip(
+                `<div>
+                     Pineview Preschool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1387aad2faab46f486e57e3385bb6de7 = L.marker(
+                [25.7490374, -80.31703189999999],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_fa8b9554f5db44cf84ebc2b22409cedb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_1387aad2faab46f486e57e3385bb6de7.setIcon(icon_fa8b9554f5db44cf84ebc2b22409cedb);
+        
+    
+            marker_1387aad2faab46f486e57e3385bb6de7.bindTooltip(
+                `<div>
+                     Westchester Academy & Learning
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90f771d09f6349edadaef91d56705191 = L.marker(
+                [25.735340118408203, -80.33502197265625],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_28162bf768e74d5cbb4243b3230ea09e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_90f771d09f6349edadaef91d56705191.setIcon(icon_28162bf768e74d5cbb4243b3230ea09e);
+        
+    
+            marker_90f771d09f6349edadaef91d56705191.bindTooltip(
+                `<div>
+                     Christian Montessori Children's House
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2887610858c6423ba29275b014c00e2e = L.marker(
+                [25.718306, -80.271041],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_9b0733f8506746dc8fa6ab19e9db5e26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_2887610858c6423ba29275b014c00e2e.setIcon(icon_9b0733f8506746dc8fa6ab19e9db5e26);
+        
+    
+            marker_2887610858c6423ba29275b014c00e2e.bindTooltip(
+                `<div>
+                     Margaux Early Childhood School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a4b020a75aa4472ae0e63b16c896db2 = L.marker(
+                [25.714829, -80.28606892],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_b715f9973a6c4f98b4ad293ef02de873 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_9a4b020a75aa4472ae0e63b16c896db2.setIcon(icon_b715f9973a6c4f98b4ad293ef02de873);
+        
+    
+            marker_9a4b020a75aa4472ae0e63b16c896db2.bindTooltip(
+                `<div>
+                     Alexander Montessori School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71e9183bb6324488b80a796fb901ba73 = L.marker(
+                [25.7442961, -80.34343849999999],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_4a4dfbf85df340518b993b01f433026e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_71e9183bb6324488b80a796fb901ba73.setIcon(icon_4a4dfbf85df340518b993b01f433026e);
+        
+    
+            marker_71e9183bb6324488b80a796fb901ba73.bindTooltip(
+                `<div>
+                     Mommy & Me Learning Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b0a036ed793421a8cd1b02e82775706 = L.marker(
+                [25.79687, -80.342967],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_10cd5c2a1e74455092690ea79d9e1bb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_5b0a036ed793421a8cd1b02e82775706.setIcon(icon_10cd5c2a1e74455092690ea79d9e1bb7);
+        
+    
+            marker_5b0a036ed793421a8cd1b02e82775706.bindTooltip(
+                `<div>
+                     All Stars Child Development Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c42ffa97821f4dc8ad5c03fc60b514e2 = L.marker(
+                [25.750749, -80.21882099999999],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_36f73a0e0b134000bb116407cd59a032 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_c42ffa97821f4dc8ad5c03fc60b514e2.setIcon(icon_36f73a0e0b134000bb116407cd59a032);
+        
+    
+            marker_c42ffa97821f4dc8ad5c03fc60b514e2.bindTooltip(
+                `<div>
+                     Village Montessori School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc104a09197046458d014538d9000c5f = L.marker(
+                [25.705399, -80.281358],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_f1201cc3b68b4371b37296fdbc3fa270 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_bc104a09197046458d014538d9000c5f.setIcon(icon_f1201cc3b68b4371b37296fdbc3fa270);
+        
+    
+            marker_bc104a09197046458d014538d9000c5f.bindTooltip(
+                `<div>
+                     Riviera Day School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2c8af944f5f4c2ca40429a1eb1e46db = L.marker(
+                [25.75615, -80.20781],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_816e4b01a92c4b4c8e781a8b69df8374 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_a2c8af944f5f4c2ca40429a1eb1e46db.setIcon(icon_816e4b01a92c4b4c8e781a8b69df8374);
+        
+    
+            marker_a2c8af944f5f4c2ca40429a1eb1e46db.bindTooltip(
+                `<div>
+                     Tiniciti Preschool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0978316ad7e40b3b96789a06e637264 = L.marker(
+                [25.75655611078299, -80.33563882112503],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_93e424ab958b4668827d0318bab5b328 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_c0978316ad7e40b3b96789a06e637264.setIcon(icon_93e424ab958b4668827d0318bab5b328);
+        
+    
+            marker_c0978316ad7e40b3b96789a06e637264.bindTooltip(
+                `<div>
+                     Christian Montessori Children's House II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fa69b7a8e2e45aa961931e9f803511d = L.marker(
+                [25.81264638, -80.36564657],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_41b3ce2e110a48109973acf86a028ffa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_9fa69b7a8e2e45aa961931e9f803511d.setIcon(icon_41b3ce2e110a48109973acf86a028ffa);
+        
+    
+            marker_9fa69b7a8e2e45aa961931e9f803511d.bindTooltip(
+                `<div>
+                     Beyond Spectrum Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99ad9f20577845b3b296aea5bde05b91 = L.marker(
+                [25.765066146850586, -80.19645690917969],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_9cd6a79de046408fb37a0a0ce77532f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_99ad9f20577845b3b296aea5bde05b91.setIcon(icon_9cd6a79de046408fb37a0a0ce77532f4);
+        
+    
+            marker_99ad9f20577845b3b296aea5bde05b91.bindTooltip(
+                `<div>
+                     Baby Scuola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c646d2c511a54856a9d0303d349d138c = L.marker(
+                [25.756134, -80.196315],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_e3ddfa4f22c6477d8d4f929101b74c86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_c646d2c511a54856a9d0303d349d138c.setIcon(icon_e3ddfa4f22c6477d8d4f929101b74c86);
+        
+    
+            marker_c646d2c511a54856a9d0303d349d138c.bindTooltip(
+                `<div>
+                     La Prima Casa Montessori School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e909ada782404af29dcfff97074cdebf = L.marker(
+                [25.7626343, -80.19212770000001],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_44768e7720db48e2933d5b81e00ea569 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_e909ada782404af29dcfff97074cdebf.setIcon(icon_44768e7720db48e2933d5b81e00ea569);
+        
+    
+            marker_e909ada782404af29dcfff97074cdebf.bindTooltip(
+                `<div>
+                     Montessori Kids Universe | Franchising Information
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_993011a3603840adb30b09122facd538 = L.marker(
+                [25.763132, -80.190865],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_192426e40e9c477397c33d425677518d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_993011a3603840adb30b09122facd538.setIcon(icon_192426e40e9c477397c33d425677518d);
+        
+    
+            marker_993011a3603840adb30b09122facd538.bindTooltip(
+                `<div>
+                     Brickell International Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00b8a7b94be74e76a998684d0c9c1c33 = L.marker(
+                [25.7331039, -80.37579910000001],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_6e5cc498fa2846c5b9227bdfb395c1ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_00b8a7b94be74e76a998684d0c9c1c33.setIcon(icon_6e5cc498fa2846c5b9227bdfb395c1ec);
+        
+    
+            marker_00b8a7b94be74e76a998684d0c9c1c33.bindTooltip(
+                `<div>
+                     Tu Mundo Montessori Bilingual Preschool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03ac10ccc43e46fda509c38c35ed1758 = L.marker(
+                [25.773203853785116, -80.19055677301634],
+                {}
+            ).addTo(map_627e4b797962480ba8ad4389c8c599fb);
+        
+    
+            var icon_a2fb059463224ba385ea19f19052b2d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag-o", "iconColor": "black", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_03ac10ccc43e46fda509c38c35ed1758.setIcon(icon_a2fb059463224ba385ea19f19052b2d4);
+        
+    
+            marker_03ac10ccc43e46fda509c38c35ed1758.bindTooltip(
+                `<div>
+                     Orbit Interactive
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

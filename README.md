@@ -74,35 +74,35 @@ The realization of the project is divided in 2 parts:
 
        - Web companies in Madrid, Miami and CapeTown with 10-100 employees founded before 2005.
 
-* Requesting geocode API and creating a df (https://geocode.xyz).   
+* Requesting geocode API (https://geocode.xyz) and creating a df ([.src.functions1.df_final]).   
 
 #### 1.2 Api_calls & Mapping:
 
-* API requesting the under the parametres ([.src.functionsdata.data]):
+* API requesting the under the parametres ([.src.functions2.data]):
 
       - Places considerated to be: "Starbucks", "High School", "Middle School", "Preschool".
       
       - With less than 10km away from the given distance of each city by "geocode" (assuming this is the center of the best area to open my company in each city).
 
-* Df cleaning ([.src.functionsdata.clean]):
+* Df cleaning ([.src.functions2.clean]):
 
       - Cleaning the dictionary obtanined from API request.
  
-* Converting dictionary to df ([.src.functionsdata.to_df]):
+* Converting dictionary to df ([.src.functions2.to_df]):
 
       - Filtering and cleaning the dictionary.
       
       - Create a df with the relevant information (name, category, latitude, and longitude).
 
-* Maping with markers ([.src.functionsdata.mapping]):
+* Maping with markers ([.src.functions2.mapping]):
 
       - Creating a map with folium for each city marking the places by their category ("Starbucks", "High School", "Middle School", "Preschool").
 
 #### 1.3 Visualization and ELECTIONS:
 
 * After importing the maps of each city and checking the feasibility of moving my new company there, I want my employees to decide city. The office will be situated in the better and cheapest place near the coordinates given by geocoding.
-* I need to bring all employees to fill up the survey to decide the final city! ([.src.functionschoosing.The_Final_City])
+* I need to bring all employees to fill up the survey to decide the final city! ([.src.functions3.The_Final_City])
 
 ## Author
 
-* **Bertrán Gil de Santivañes Finat** - *Initial work* - (https://github.com/Bertrangsf/3.-Geospatial-choice-between-cities-)
+* **Bertrán Gil de Santivañes Finat** - *Initial work* - (https://github.com/Bertrangsf/3.-Geospatial-Proyect)
